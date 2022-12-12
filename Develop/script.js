@@ -61,14 +61,14 @@ else {
     //FOR loop to loop over password length and generate ramdom number to pick random character from possibleChar array
     //push each character picked randomly into passwordString array
 
-for (let i = 0; i < pass.length; i++) {
+for (let i = 0; i < pass; i++) {
   let random = Math.floor(Math.random() * possibleChar.length);
-  passwordString = passwordString.concat(random, possibleChar[random]);
+  passwordString = passwordString.concat(possibleChar[random]);
 }
 
 // return passwordString
-// return passwordString.join("");
-return passwordString
+return passwordString.join("");
+// return passwordString
 }
 // Write password to the #password input
 function writePassword() {
