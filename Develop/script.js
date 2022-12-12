@@ -62,13 +62,13 @@ else {
     //push each character picked randomly into passwordString array
 
 for (let i = 0; i < pass.length; i++) {
-  const random = Math.floor(Math.random() * possibleChar.length);
+  let random = Math.floor(Math.random() * possibleChar.length);
   passwordString = passwordString.concat(random, possibleChar[random]);
 }
 
 // return passwordString
 // return passwordString.join("");
-
+return passwordString
 }
 // Write password to the #password input
 function writePassword() {

@@ -1,2 +1,2 @@
 # Password Generator Starter Code
-This program allows you to create a randomly generated password using the chracters desired by the user. The prompts intake the users preferences before randomly generating the password through an algorythm. The password can then be copy and pasted to be used on any site.
+This program allows you to create a randomly generated password using the chracters desired by the user. The prompts intake the users preferences before randomly generating the password through an algorythm. The password can then be copy and pasted to be used on any site. Screenshot of application included below.
